@@ -16,6 +16,7 @@
   <div class="blob blob-1"></div>
   <div class="blob blob-2"></div>
   <div class="blob blob-3"></div>
+  <div class="blob blob-4"></div>
 
   <!-- Navigation -->
   <header class="navbar">
@@ -24,11 +25,19 @@
         <span class="logo-icon">✨</span>
         <span class="logo-text">Dream<span class="logo-accent">3D</span></span>
       </a>
-      <nav class="nav-links">
-        <a href="#how-it-works">How It Works</a>
-        <a href="#gallery">Showcase</a>
-        <a href="#features">Why Parents Love Us</a>
-        <a href="#contact" class="btn btn-sm btn-primary">Turn Drawing to 3D</a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#how-it-works" class="nav-item">How It Works</a>
+        <a href="#gallery" class="nav-item">Showcase</a>
+        <a href="#features" class="nav-item">Why Kids Love Us</a>
+        <a href="#contact" class="btn btn-sm btn-primary nav-cta">Turn Drawing to 3D 🚀</a>
       </nav>
     </div>
   </header>
@@ -37,39 +46,41 @@
   <section class="hero">
     <div class="hero-container">
       <div class="hero-badge">
-        <span class="star-icon">⭐</span> Where Childhood Dreams Become Tangible Reality
+        <span class="badge-emoji">🎉</span> Where Any Kid's Imagination Becomes Reality!
       </div>
       <h1 class="hero-title">
-        Turn Your Child's <span class="gradient-text">Drawings & Imagination</span> into Real 3D Sculptures
+        Turn Your Child's <span class="gradient-text rainbow-text">Drawings & Dreams</span> Into Real 3D Sculptures!
       </h1>
       <p class="hero-subtitle">
-        Every scribble, brave knight, breathing dragon, and colorful creature deserves to jump off the fridge into real life. We craft high-detail, vibrant 3D figurines straight from your kid’s artwork!
+        Every scribble, flying monster, rainbow butterfly, and superhero deserves to jump off paper into their hands. See the pure joy and proud smiles when they hold their own artwork in full-color 3D reality!
       </p>
       
       <div class="hero-cta-group">
         <a href="#contact" class="btn btn-lg btn-primary pulse">
-          <span>Bring Artwork to Life</span>
+          <span>Upload Drawing Now</span>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </a>
-        <a href="#how-it-works" class="btn btn-lg btn-outline">See How It Works</a>
+        <a href="#gallery" class="btn btn-lg btn-accent">
+          <span>See Happy Smiles</span> 🌟
+        </a>
       </div>
 
       <div class="hero-image-wrapper">
         <div class="hero-card-glow"></div>
         <div class="hero-main-card">
-          <img src="assets/dragon-hero.jpg" alt="Child's drawing of a brave knight on a fire-breathing dragon turned into a colorful 3D physical toy sculpture" class="hero-img">
+          <img src="assets/happy-child-3d.jpg" alt="Excited smiling boy holding his original colorful drawing in one hand and the exact 3D physical toy sculpture in the other" class="hero-img">
           <div class="hero-card-tag left-tag">
-            <span class="tag-icon">🎨</span>
+            <span class="tag-icon">🖍️</span>
             <div>
               <strong>Original Drawing</strong>
-              <small>Crayons, markers or paint</small>
+              <small>Drawn with pure kid imagination</small>
             </div>
           </div>
           <div class="hero-card-tag right-tag">
-            <span class="tag-icon">✨</span>
+            <span class="tag-icon">💖</span>
             <div>
-              <strong>Handcrafted 3D Model</strong>
-              <small>Vivid colors & durable keepsake</small>
+              <strong>Real 3D Keepsake</strong>
+              <small>Delivered with pure happiness & smiles</small>
             </div>
           </div>
         </div>
@@ -77,52 +88,55 @@
 
       <div class="trust-stats">
         <div class="stat-item">
+          <span class="stat-emoji">🎨</span>
           <h3>100%</h3>
           <p>Faithful to Original Art</p>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
+          <span class="stat-emoji">🌱</span>
           <h3>Eco-Safe</h3>
           <p>Non-Toxic & Child Friendly</p>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-          <h3>Forever</h3>
-          <p>Cherished Family Keepsake</p>
+          <span class="stat-emoji">😊</span>
+          <h3>10,000+</h3>
+          <p>Smiles Brought to Life</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- How It Works Section -->
-  <section id="how-it-works" class="section bg-light">
+  <section id="how-it-works" class="section bg-playful">
     <div class="container">
       <div class="section-header">
-        <span class="badge-pill">Magical Process</span>
-        <h2>How We Bring Dreams to Life in 3 Steps</h2>
-        <p>You don't need any special files. A simple snap from your phone camera is all we need!</p>
+        <span class="badge-pill pill-violet">Magical 3-Step Journey</span>
+        <h2>How We Bring Any Drawing to Real Life</h2>
+        <p>No 3D modeling skills needed! Snap a quick photo with your phone camera and watch the magic happen.</p>
       </div>
 
       <div class="steps-grid">
-        <div class="step-card">
-          <div class="step-num">1</div>
+        <div class="step-card card-yellow">
+          <div class="step-badge">Step 1</div>
           <div class="step-icon">📸</div>
           <h3>Snap & Upload</h3>
-          <p>Take a clear photo of your child’s drawing, painting, or school art project and send it to our studio.</p>
+          <p>Snap a picture of your child's drawing, painting, or school doodle and upload it in seconds below.</p>
         </div>
 
-        <div class="step-card">
-          <div class="step-num">2</div>
+        <div class="step-card card-pink">
+          <div class="step-badge">Step 2</div>
           <div class="step-icon">🪄</div>
-          <h3>3D Sculpting & Modeling</h3>
-          <p>Our 3D artists capture every playful curve, quirky expression, and brushstroke in realistic dimensions.</p>
+          <h3>3D Sculpting Magic</h3>
+          <p>Our artists carefully transform every crayon stroke, joyful face, and funny curve into a vivid 3D shape.</p>
         </div>
 
-        <div class="step-card">
-          <div class="step-num">3</div>
+        <div class="step-card card-cyan">
+          <div class="step-badge">Step 3</div>
           <div class="step-icon">🎁</div>
-          <h3>Full-Color 3D Reality</h3>
-          <p>We precision-print and detail your custom figurine, securely packing it for doorstep delivery to amaze your family!</p>
+          <h3>Unbox Pure Joy!</h3>
+          <p>We precision-print in vibrant full color and ship the collectible sculpture right to your door!</p>
         </div>
       </div>
     </div>
@@ -132,53 +146,57 @@
   <section id="gallery" class="section">
     <div class="container">
       <div class="section-header">
-        <span class="badge-pill">Real Magic</span>
-        <h2>From Refrigerator Art to Bedroom Masterpiece</h2>
-        <p>Cherish their golden years of boundless creativity with a physical treasure they can hold, display, and remember forever.</p>
+        <span class="badge-pill pill-coral">Real Magic</span>
+        <h2>From Paper Scribble to Treasured Toy</h2>
+        <p>Witness how a child's imagination leaps into the physical world with vibrant color and durable craftsmanship.</p>
       </div>
 
       <div class="feature-spotlight">
         <div class="spotlight-content">
-          <h3>Keep Their Imagination Alive Forever</h3>
-          <p>Children's imagination is limitless — dragons with purple wings, smiling knights, friendly monsters, and spaceships. Drawings fade or get folded in boxes, but a Dream3D sculpture stands proudly on their desk or bookshelf as an heirloom.</p>
+          <span class="spotlight-badge">⭐ Best Childhood Keepsake</span>
+          <h3>Look at the Joy When Their Imagination Arrives!</h3>
+          <p>Children's creativity is boundless. When kids see their own characters turned into real, tangible figurines that they can hold, their self-confidence and artistic passion soar!</p>
           <ul class="check-list">
-            <li><span>🌈</span> Preserves true hand-drawn colors and joyful quirks</li>
-            <li><span>🛡️</span> Premium durable, drop-resistant resin material</li>
-            <li><span>🎁</span> The perfect birthday, graduation, or holiday gift</li>
-            <li><span>✨</span> Boosts children's confidence in their creativity</li>
+            <li><span class="check-icon">🎨</span> <strong>Vivid True Colors:</strong> Every crayon shade is faithfully preserved</li>
+            <li><span class="check-icon">🛡️</span> <strong>Durable & Safe:</strong> Drop-resistant, non-toxic premium material</li>
+            <li><span class="check-icon">🎁</span> <strong>Unforgettable Gift:</strong> Perfect for birthdays, holidays & milestones</li>
+            <li><span class="check-icon">✨</span> <strong>Desk Heirloom:</strong> A cherished keepsake parents preserve forever</li>
           </ul>
-          <a href="#contact" class="btn btn-primary" style="margin-top: 1.5rem;">Create Yours Now</a>
+          <a href="#contact" class="btn btn-primary" style="margin-top: 1.5rem;">Turn Their Art Into 3D Now</a>
         </div>
         <div class="spotlight-image">
           <img src="assets/dragon-hero.jpg" alt="Child dragon drawing turned real 3d sculpture" class="rounded-shadow">
+          <div class="spotlight-caption">
+            <span>🐉 Brave Knight & Fire Dragon — 2D Drawing to 3D Physical Figurine</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Testimonials / Features -->
-  <section id="features" class="section bg-light">
+  <section id="features" class="section bg-playful">
     <div class="container">
       <div class="section-header">
-        <span class="badge-pill">Loved by Families</span>
-        <h2>Why Parents & Kids Adore Dream3D</h2>
+        <span class="badge-pill pill-green">Loved by Kids & Parents</span>
+        <h2>Why Families Everywhere Love Dream3D</h2>
       </div>
 
       <div class="features-grid">
-        <div class="feature-box">
+        <div class="feature-box box-purple">
           <div class="feature-emoji">🧸</div>
           <h4>Heirloom Quality</h4>
-          <p>Crafted using durable, smooth composite materials with rich color pigment that never fades.</p>
+          <p>Crafted using durable composite materials with UV-protected rich pigments that won't fade over time.</p>
         </div>
-        <div class="feature-box">
+        <div class="feature-box box-orange">
           <div class="feature-emoji">🌟</div>
-          <h4>True to Their Vision</h4>
-          <p>We respect your kid's original character design — every wonky tooth, funny crown, and happy face stays true.</p>
+          <h4>100% True Character</h4>
+          <p>We respect your kid's original character — every funny hat, wonky eye, and bright smile stays genuine.</p>
         </div>
-        <div class="feature-box">
-          <div class="feature-emoji">❤️</div>
-          <h4>Unforgettable Reaction</h4>
-          <p>Watch their eyes light up when they open the box and hold their own mind's creation in real life!</p>
+        <div class="feature-box box-pink">
+          <div class="feature-emoji">🥰</div>
+          <h4>Priceless Big Smiles</h4>
+          <p>Watch their eyes light up with pure wonder the moment they open the box and hold their dream character!</p>
         </div>
       </div>
     </div>
@@ -189,14 +207,14 @@
     <div class="container">
       <div class="contact-wrapper">
         <div class="contact-info">
-          <span class="badge-pill">Get In Touch</span>
-          <h2>Ready to turn their imagination into 3D?</h2>
-          <p>Send us a message, share your child's drawing details, or ask any questions. We will review your idea and get back to you with preview options and pricing!</p>
+          <span class="badge-pill pill-coral">Let's Create Magic</span>
+          <h2>Ready to turn their imagination into a real 3D shape?</h2>
+          <p>Upload your child's drawing, sketch, or painting below. We will review it, send you a free quote and a 3D preview consultation!</p>
           
           <div class="contact-perks">
             <div class="perk-item">
               <span class="perk-check">✓</span>
-              <span>Free quote & 3D preview consultation</span>
+              <span>Free quote & friendly 3D preview guidance</span>
             </div>
             <div class="perk-item">
               <span class="perk-check">✓</span>
@@ -204,14 +222,15 @@
             </div>
             <div class="perk-item">
               <span class="perk-check">✓</span>
-              <span>Worldwide safe shipping</span>
+              <span>Worldwide protective bubble-pack shipping</span>
             </div>
           </div>
         </div>
 
         <div class="contact-card">
-          <h3 class="form-title">Start Your Dream3D Request</h3>
-          <p class="form-desc">Fill out the form below and we'll reach out promptly!</p>
+          <div class="card-top-tag">🌈 Start Your Custom 3D Figurine</div>
+          <h3 class="form-title">Upload Drawing & Get Started</h3>
+          <p class="form-desc">Fill out this quick form and our studio will get right back to you!</p>
 
           <form action="https://formspree.io/f/mnpdqlpl" method="POST" enctype="multipart/form-data" class="dream-form">
             <div class="form-group">
@@ -230,13 +249,13 @@
             </div>
 
             <div class="form-group">
-              <label for="drawing-upload">Upload Drawing or Painting</label>
+              <label for="drawing-upload">Upload Drawing or Painting 🎨</label>
               <div class="file-upload-box" id="drop-zone">
                 <input type="file" id="drawing-upload" name="drawing" accept="image/*" required class="file-input">
                 <div class="upload-content">
-                  <span class="upload-icon">🎨</span>
-                  <p class="upload-main-text"><strong>Click to choose a photo</strong> or drag & drop</p>
-                  <p class="upload-sub-text">JPG, PNG, WEBP, HEIC up to 10MB</p>
+                  <span class="upload-icon">📸</span>
+                  <p class="upload-main-text"><strong>Click to select child's artwork</strong> or drag & drop</p>
+                  <p class="upload-sub-text">PNG, JPG, WEBP or HEIC (from phone or scanner)</p>
                   <div id="file-chosen-preview" class="file-chosen-name"></div>
                 </div>
               </div>
@@ -244,14 +263,14 @@
 
             <div class="form-group">
               <label for="message">Special Notes / Details (Optional)</label>
-              <textarea id="message" name="message" rows="3" placeholder="Any special requests? e.g. 'Please make the dragon extra friendly!' or preferred height..."></textarea>
+              <textarea id="message" name="message" rows="3" placeholder="Any special wishes? e.g. 'Make the cape extra shiny!' or preferred figurine height..."></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary btn-block">
-              <span>Send Drawing & Request 3D</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            <button type="submit" class="btn btn-primary btn-block pulse">
+              <span>Send Drawing & Turn to 3D Reality ✨</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
             </button>
-            <p class="form-footnote">🔒 Securely powered by Formspree. We respect your privacy.</p>
+            <p class="form-footnote">🔒 Securely delivered via Formspree. 100% spam-free & private.</p>
           </form>
         </div>
       </div>
@@ -266,15 +285,51 @@
           <span class="logo-icon">✨</span>
           <span class="logo-text">Dream<span class="logo-accent">3D</span></span>
         </a>
-        <p>Turning children's purest imagination into real physical 3D sculptures.</p>
+        <p>Turning children's purest imagination into vibrant, smiling, real 3D sculptures.</p>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2026 Dream3D. All dreams and rights reserved.</p>
+        <p>&copy; 2026 Dream3D. Bringing kids' imagination to reality.</p>
       </div>
     </div>
   </footer>
 
   <script>
+    // Mobile Navigation Menu Toggle
+    const menuToggle = document.getElementById('mobile-menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    const navItems = document.querySelectorAll('.nav-item, .nav-cta');
+
+    if (menuToggle && navLinks) {
+      menuToggle.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const isOpen = navLinks.classList.toggle('active');
+        menuToggle.classList.toggle('active');
+        menuToggle.setAttribute('aria-expanded', isOpen);
+        document.body.classList.toggle('menu-open', isOpen);
+      });
+
+      // Close menu when clicking any nav link
+      navItems.forEach(item => {
+        item.addEventListener('click', () => {
+          navLinks.classList.remove('active');
+          menuToggle.classList.remove('active');
+          menuToggle.setAttribute('aria-expanded', 'false');
+          document.body.classList.remove('menu-open');
+        });
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener('click', function(e) {
+        if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
+          navLinks.classList.remove('active');
+          menuToggle.classList.remove('active');
+          menuToggle.setAttribute('aria-expanded', 'false');
+          document.body.classList.remove('menu-open');
+        }
+      });
+    }
+
+    // File Upload Preview
     const fileInput = document.getElementById('drawing-upload');
     const preview = document.getElementById('file-chosen-preview');
     const dropZone = document.getElementById('drop-zone');
@@ -283,7 +338,7 @@
       fileInput.addEventListener('change', function(e) {
         if (this.files && this.files[0]) {
           const file = this.files[0];
-          preview.textContent = 'Selected: ' + file.name + ' (' + (file.size / 1024 / 1024).toFixed(2) + ' MB)';
+          preview.textContent = 'Selected: ' + file.name + ' (' + (file.size / 1024 / 1024).toFixed(2) + ' MB) ✅';
           dropZone.classList.add('has-file');
         } else {
           preview.textContent = '';
@@ -294,4 +349,3 @@
   </script>
 </body>
 </html>
-
