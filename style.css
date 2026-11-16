@@ -655,6 +655,103 @@ h1, h2, h3, h4, .logo-text, .step-badge, .badge-pill {
   font-size: 1rem;
 }
 
+/* Delivery Notice Box */
+.delivery-notice-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+  border: 2px solid #F59E0B;
+  border-radius: 18px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.75rem;
+  box-shadow: var(--shadow-sm);
+}
+.delivery-notice-box .delivery-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+.delivery-notice-box strong {
+  display: block;
+  color: #92400E;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 0.2rem;
+}
+.delivery-notice-box p {
+  color: #78350F;
+  font-size: 0.95rem;
+  margin-bottom: 0;
+  line-height: 1.45;
+}
+
+/* Studio Locations */
+.studio-locations {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #FFFFFF;
+  border: 2px solid #E2E8F0;
+  border-radius: 18px;
+  box-shadow: var(--shadow-sm);
+}
+.studio-locations h4 {
+  font-size: 1.15rem;
+  color: #0F172A;
+  margin-bottom: 1rem;
+}
+.location-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-bottom: 0.85rem;
+  font-size: 0.92rem;
+}
+.location-item:last-child {
+  margin-bottom: 0;
+}
+.location-item strong {
+  color: #1E293B;
+  font-weight: 700;
+}
+.location-item span {
+  color: #64748B;
+}
+
+/* Form Row & Select */
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+.form-col-70 {
+  flex: 7;
+}
+.form-col-30 {
+  flex: 3;
+}
+.form-select {
+  width: 100%;
+  padding: 0.9rem 1.2rem;
+  border: 2px solid #E2E8F0;
+  border-radius: 14px;
+  font-family: inherit;
+  font-size: 0.98rem;
+  color: var(--text-main);
+  background-color: #F8FAFC;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.form-select:focus {
+  outline: none;
+  border-color: #8B5CF6;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 4px #EDE9FE;
+}
+.footer-cities {
+  font-size: 0.95rem;
+  color: #E2E8F0;
+  margin-top: 0.35rem;
+}
+
 /* Contact Card Form */
 .contact-card {
   background: #FFFFFF;

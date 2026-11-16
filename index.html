@@ -137,7 +137,7 @@
           <div class="step-badge">Step 3</div>
           <div class="step-icon">🎁</div>
           <h3>Doorstep Delivery</h3>
-          <p>We precision-print with durable non-toxic color resin, pack securely, and deliver a lifelong keepsake right to your home.</p>
+          <p>We precision-print with durable non-toxic color resin, pack securely, and deliver a lifelong keepsake right to your home (available in Hamburg &amp; 's-Hertogenbosch).</p>
         </div>
       </div>
     </div>
@@ -212,6 +212,14 @@
           <h2>Ready to turn their imagination into a real 3D shape?</h2>
           <p>Upload your child's drawing, sketch, or painting below. We will review it and get back to you within 24 hours with a custom quote and 3D preview options!</p>
           
+          <div class="delivery-notice-box">
+            <span class="delivery-icon">🚚</span>
+            <div>
+              <strong>Exclusive Delivery Zones:</strong>
+              <p>We are currently delivering directly to <strong>Hamburg (Germany)</strong> and <strong>'s-Hertogenbosch / Den Bosch (Netherlands)</strong>!</p>
+            </div>
+          </div>
+
           <div class="contact-perks">
             <div class="perk-item">
               <span class="perk-check">✓</span>
@@ -223,7 +231,19 @@
             </div>
             <div class="perk-item">
               <span class="perk-check">✓</span>
-              <span>Worldwide protective bubble-pack shipping</span>
+              <span>Dedicated delivery to Hamburg &amp; Den Bosch</span>
+            </div>
+          </div>
+
+          <div class="studio-locations">
+            <h4>📍 Our Studios &amp; Drop-off</h4>
+            <div class="location-item">
+              <strong>🇩🇪 Hamburg Studio:</strong>
+              <span>Speicherstadt / HafenCity, 20457 Hamburg, Germany</span>
+            </div>
+            <div class="location-item">
+              <strong>🇳🇱 Den Bosch Studio:</strong>
+              <span>Centrum / Parade, 5211 KL 's-Hertogenbosch, Netherlands</span>
             </div>
           </div>
         </div>
@@ -242,6 +262,31 @@
             <div class="form-group">
               <label for="email">Your Email Address</label>
               <input type="email" id="email" name="_replyto" placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp Number</label>
+              <input type="tel" id="phone" name="telephone" placeholder="e.g. +49 170 1234567 or +31 6 12345678" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group form-col-70">
+                <label for="address">Street Address</label>
+                <input type="text" id="address" name="delivery_address" placeholder="e.g. Neuer Wall 12 / Markt 5" required>
+              </div>
+              <div class="form-group form-col-30">
+                <label for="postal-code">Postal Code</label>
+                <input type="text" id="postal-code" name="postal_code" placeholder="e.g. 20354 / 5211 KL" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="delivery-city">Delivery City (Currently Hamburg &amp; Den Bosch only)</label>
+              <select id="delivery-city" name="delivery_city" class="form-select" required>
+                <option value="" disabled selected>Select your delivery city...</option>
+                <option value="Hamburg, Germany">Hamburg, Germany</option>
+                <option value="Den Bosch ('s-Hertogenbosch), Netherlands">Den Bosch ('s-Hertogenbosch), Netherlands</option>
+              </select>
             </div>
 
             <div class="form-group">
@@ -287,6 +332,7 @@
           <span class="logo-text">Dream<span class="logo-accent">3D</span></span>
         </a>
         <p>Turning children's purest imagination into vibrant, smiling, real 3D sculptures.</p>
+        <p class="footer-cities">📍 Currently Delivering to: <strong>Hamburg, Germany (20xxx–22xxx)</strong> &amp; <strong>Den Bosch, Netherlands (52xx)</strong></p>
       </div>
       <div class="footer-bottom">
         <p>&copy; 2026 Dream3D. Bringing kids' imagination to reality.</p>
